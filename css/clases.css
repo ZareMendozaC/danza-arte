@@ -1,1 +1,33 @@
-/* Inserta tu codigo aqui */
+*{outline: 1px solid #ea3232}
+/* Cabecera */
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+}
+/* seccion cursos */
+.cursos{
+    background: #dfdfdf;
+ 
+}
+.columna-curso{
+    width: 250px;
+    height: 300px;
+    background-image:url(../img/dance_12.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: table;
+    
+}
+
+.texto-columna-curso{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFF;
+    font-size: 12px;
+    background-color: black;
+    
+   
+ 
+}
