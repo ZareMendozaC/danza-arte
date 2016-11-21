@@ -106,8 +106,26 @@
     margin-top: 6%;
     
 }
-
 .contenido_mapa .map{
     text-align: center;
     margin-bottom: 8%;
+}
+.imagen img{
+    background-size: contain;
+    height: 250px;
+    background-color: #A4A4A4;
+}
+.fila-blog{
+     background-color:#D8D8D8;
+    margin-top: 35px;
+}
+.btn-ver{
+    width: 140px;
+}
+.contenido{
+    background-color: #E6E6E6;
+   
+}
+.col-texto{
+    margin-top: 50px;
 }
