@@ -5,41 +5,120 @@
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/nosotros.css">
+	 
 </head>
 <body>
-		<!-- Inserta tu código aqui -->
-		<!-------------------------------------------------------------------------- HEADER -------------------------------------------------------------------------------->
+	<!-- Inserta tu código aqui -->
+   
+     <!------------------------------------------------------ HEADER ------------------------------------------------------------------>
     <header>
         <div class="container">
            
-            <h1 class="text-blue text-center">ESCUELA DE DANZA</h1>
-            <nav>
-               
-                <ul>
+            <h1 class="text-blue text-center"><strong>ESCUELA DE DANZA</strong></h1>
+            
+            <nav class="navbar" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Desplegar navegación</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+    
+              </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
                     <li><a href="nosotros.html" class="text-gray">Nosotros</a></li>
                     <li><a href="clases.html" class="text-gray">Clases</a></li>
                     <li><a href="blog.html" class="text-gray">Blog</a></li>
                     <li><a href="#contactanos" class="text-gray">Contáctanos</a></li>
                 </ul>
-               
+               </div>
             </nav>
+   
          </div>   
     </header>
     
-    <!----------------------------------------------------------------------------- MAIN ------------------------------------------------------------------------------>
-    
+     <!------------------------------------------------------- MAIN ------------------------------------------------------------------->
     <main>
-        <!-------------------------------------------------------------- Contactanos ------------------------------------------------------------------------------>
+       <!---------------------------------------------------- Banner ---------------------------------------------------------------->
+        <section class="banner">
+            <div class="container">
+               <div class="row">
+                    <div class="col-md-4">
+                       <div class="margen-banner">
+                           <div class="nosotros">
+                               <div class="texto-nosotros">
+                                    <p class="text-gris studio"><strong>SOBRE NOSOTROS</strong></p>
+                                    <p class="text-gris  juliart">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas vel tempora laborum animi error explicabo, vitae nobis repudiandae velit cum sit molestiae odit quo, tempore voluptatem, aliquam quia qui debitis!</p>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!------------------------------------------------------ Reseña ------------------------------------------------------------->
+        <section class="resena">
+            <div class="container">
+               <div class="row">
+                   <div class="col-md-4">
+                        <p>Pilar 1</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus asperiores tenetur possimus ducimus alias soluta repudiandae, aut similique, incidunt autem voluptates dolore maiores laudantium reiciendis dolores quam molestiae, quasi perspiciatis.</p>
+                   </div>
+                   
+                   <div class="col-md-4">
+                        <p>Pilar 2</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus asperiores tenetur possimus ducimus alias soluta repudiandae, aut similique, incidunt autem voluptates dolore maiores laudantium reiciendis dolores quam molestiae, quasi perspiciatis.</p>
+                    </div>           
+                    
+                    <div class="col-md-4">
+                        <p>Pilar 3</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus asperiores tenetur possimus ducimus alias soluta repudiandae, aut similique, incidunt autem voluptates dolore maiores laudantium reiciendis dolores quam molestiae, quasi perspiciatis.</p>
+                   </div>
+               </div>
+            </div>
+        </section>
+        
+        <!------------------------------------------------------- DobleImagen ------------------------------------------------------>
+        <section class="dobleimagen">
+           <div class="container">
+              <div class="row">
+                  <button class="text-gris">Nuestros instructores</button>
+              </div>
+           </div>
+        </section>
+        
+        <!-------------------------------------------------------- Frase ----------------------------------------------------------->
+        <section class="frase">
+          <div class="container">
+             <div class="row">
+               <div class="margenes">
+                    <p><em>"Otra frase inspiradora larga"</em></p>
+               </div>
+             </div>
+          </div>
+        </section>
+        
+       
+        <!-------------------------------------------------------- Contactanos ----------------------------------------------------->
         <section id="contactanos">
            <div class="container-fluid">
+               
                 <form class="contact_form margen" action="" method="post" name="contact_form">
                     <ul>
                         <li>
-                            <h1 class="text-blue">Contactanos</h1>
+                            <h2 class="text-blue"><strong>Contáctanos</strong></h2>
                             
                         </li>
                         <li>
@@ -65,7 +144,7 @@
         </section>
     </main>
     
-    <!------------------------------------------------------------------------------------- FOOTER ------------------------------------------------------------------------------>
+    <!-------------------------------------------------------------- FOOTER ------------------------------------------------------->
     <footer>
        <div class="container-fluid">
            <div class="margen-pie">
