@@ -1,15 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/nosotros.css">
 </head>
 <body>
 		<!-- Inserta tu código aqui -->
+		<!-------------------------------------------------------------------------- HEADER -------------------------------------------------------------------------------->
+    <header>
+        <div class="container">
+           
+            <h1 class="text-blue text-center">ESCUELA DE DANZA</h1>
+            <nav>
+               
+                <ul>
+                    <li><a href="nosotros.html" class="text-gray">Nosotros</a></li>
+                    <li><a href="clases.html" class="text-gray">Clases</a></li>
+                    <li><a href="blog.html" class="text-gray">Blog</a></li>
+                    <li><a href="#contactanos" class="text-gray">Contáctanos</a></li>
+                </ul>
+               
+            </nav>
+         </div>   
+    </header>
+    
+    <!----------------------------------------------------------------------------- MAIN ------------------------------------------------------------------------------>
+    
+    <main>
+        <!-------------------------------------------------------------- Contactanos ------------------------------------------------------------------------------>
+        <section id="contactanos">
+           <div class="container-fluid">
+                <form class="contact_form margen" action="" method="post" name="contact_form">
+                    <ul>
+                        <li>
+                            <h1 class="text-blue">Contactanos</h1>
+                            
+                        </li>
+                        <li>
+                            <input  type="text" name="name" required placeholder="Nombre" 
+                             />
+                        </li>
+                        <li>
+                           
+                            <input type="email" name="email"  placeholder="Email" required/>
+                            <span class="form_hint">Proper format "name@something.com"</span>
+                        </li>
+                        
+                        <li>
+                            
+                            <textarea name="message" cols="40" rows="6" placeholder="Mensaje" required></textarea>
+                        </li>
+                        <li>
+                            <button class="submit text-white" type="submit">ENVIAR</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>    
+        </section>
+    </main>
+    
+    <!------------------------------------------------------------------------------------- FOOTER ------------------------------------------------------------------------------>
+    <footer>
+       <div class="container-fluid">
+           <div class="margen-pie">
+              <p class="text-gris"> &copy; Escuela de danza. Todos los derechos reservados</p>
+           </div>
+       </div>        
+    </footer>
+    
 </body>
 </html>
