@@ -1,1 +1,113 @@
 /* Inserta tu codigo aqui */
+
+*{
+    margin: 0;
+}
+
+.banner{
+    background: url(../img/dance_1.jpg) no-repeat;
+    height: auto;
+    background-size: cover;
+    
+}
+
+.banner .margen-banner{
+    margin-top: 14%;
+    margin-bottom: 20%;
+    
+    
+}
+.banner .studio{
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+.banner .juliart{
+    font-size:14px ;
+    
+    width: 56%;
+}
+
+.banner button{
+    background: #0e111f;
+    margin-top: 30px;
+    padding: 10px 34px;
+    border: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.resena{
+    background: url(../img/textura_2.jpg);
+    text-align: center;
+    height: auto;
+}
+
+/*Esta clase comparten tanto resena y frase*/
+.margenes{
+    margin: 100px;
+}
+.resena p{
+    font-size: 1.8em;
+    
+}
+
+.resena img{
+    width: 12%;
+    margin-top: -20px;
+}
+
+.resena button{
+    background: #192951;
+    margin-top: 0px;
+    padding: 2% 10.3%;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.dobleimagen{
+
+    background: url(../img/instructor_4.jpg)  no-repeat , 
+                url(../img/profesor_9.jpg)  no-repeat;
+    background-position: top left, top right ;
+    
+    background-size: 51%, 50%;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.dobleimagen button{
+    background: #192951;
+    margin-top: 22.2%;
+    padding:2.2% 15.2%;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 3px 3px 0  0;
+    
+}
+
+.frase{
+    background: url(../img/textura_2.jpg);
+    text-align: center;
+    font-size: 3em;
+    height: auto;
+}
+
+.contenido_mapa{
+    background: #192951;
+    
+}
+
+.contenido_mapa .texto{
+    
+}
+.margen-contenido-mapa{
+    margin-top: 6%;
+    
+}
+
+.contenido_mapa .map{
+    text-align: center;
+    margin-bottom: 8%;
+}
