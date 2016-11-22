@@ -1,23 +1,55 @@
 *{outline: 1px solid #ea3232}
 /* Cabecera */
-h1{
+.titulo-clases{
     text-align: center;
     color: darkblue;
-    font-size: 20px;
+   
 }
+.navbar-hearder{
+    background-color: #FFF;
+}
+
 /* seccion cursos */
-.cursos{
-    background: #dfdfdf;
- 
-}
-.columna-curso{
-    width: 250px;
-    height: 300px;
-    background-image:url(../img/dance_12.jpg);
-    background-size: contain;
+
+
+.imagen-curso {
+    width: 300px;
+    height: 400px;
+    
+    background-size:cover;
     background-repeat: no-repeat;
     display: table;
-    
+    margin:0;
+    padding:0;
+}
+.fondo{
+    background-color:#eff4f3;
+}
+.imgfondo1{
+   background-image:url(../img/dance_12.jpg); 
+}
+.imgfondo2{
+   background-image:url(../img/breakdance.jpg); 
+}
+.imgfondo3{
+   background-image:url(../img/lirical-jazz.jpg); 
+}
+.imgfondo4{
+   background-image:url(../img/arabe.jpg); 
+}
+.imgfondo5{
+   background-image:url(../img/little.jpg); 
+}
+.imgfondo6{
+   background-image:url(../img/yoga.jpg); 
+}
+.cursos{
+    margin-left: 100px;
+}
+
+.row {
+    width: 95.333333%;
+    margin-bottom: 20px;
 }
 
 .texto-columna-curso{
@@ -25,10 +57,16 @@ h1{
     vertical-align: middle;
     text-align: center;
     color: #FFF;
-    font-size: 12px;
-    background-color: rgba(0,0,0,0.7);
-    padding: 0,0,0,0;
+    font-size: 14px;
+    color: rgba(225,225,225,0.7);
     
-   
- 
+}
+h5,p {
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
