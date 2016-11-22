@@ -5,7 +5,7 @@
 }
 
 .banner{
-    background: url(../img/dance_7.jpg) no-repeat left fixed ;
+    background: url(../img/dance_7.jpg) no-repeat left;
     height: auto;
     background-size:138%;
     
@@ -69,8 +69,6 @@
 }
 
 #instructores .margenes1{
-   
-    height:auto;
     margin-right:20px;
     margin-bottom:5%;
     margin-top: 5%;
