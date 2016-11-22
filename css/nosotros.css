@@ -7,76 +7,95 @@
 .banner{
     background: url(../img/dance_7.jpg) left  no-repeat;
     height: auto;
-    background-size: 128%;
+    background-size: 138%;
     
 }
 
-.banner .margen-banner{
-    margin-top: 20%;
-    margin-bottom: 21%;
-    
-    
+
+.banner .texto-nosotros{
+    background: rgba(0,0,0,.4);
+    text-align: center;
+    padding: 3%;
+    width: 45%;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    margin-left: 25%;
 }
-.banner .studio{
-    font-size: 5em;
+
+.banner .sobre-nosotros{
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
-.banner .juliart{
-    font-size:14px ;
-    
-    width: 56%;
-}
 
 
-.resena{
+.pilar{
     background: url(../img/cubes.png);
     text-align: center;
     height: auto;
-}
-
-/*Esta clase comparten tanto resena y frase*/
-.margenes{
-    margin: 100px;
-}
-.resena p{
-    font-size: 1.8em;
     
 }
 
-.resena img{
-    width: 12%;
-    margin-top: -20px;
+.pilar hr{
+    border: 1px solid #ccc;
 }
 
-.resena button{
-    background: #192951;
-    margin-top: 0px;
-    padding: 2% 10.3%;
-    border: none;
-    font-size: 1.2em;
-    border-radius: 5px;
-}
-
-.dobleimagen{
-
-    background: url(../img/instructor_4.jpg)  no-repeat , 
-                url(../img/profesor_9.jpg)  no-repeat;
-    background-position: top left, top right ;
+.pilar p{
     
-    background-size: 51%, 50%;
-    text-align: center;
-    border: 1px solid #000;
+    
+}
+.pilar .margen-texto{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 5%;
 }
 
-.dobleimagen button{
-    background: #192951;
-    margin-top: 22.2%;
-    padding:2.2% 15.2%;
-    border: none;
+.pilar .pilares{
     font-size: 1.5em;
-    border-radius: 3px 3px 0  0;
+    font-weight: bold;
+}
+
+
+
+
+#instructores .margenes1 {
     
+    margin-right:20px;
+    margin-bottom:15px;
+    margin-top: 5%;
+}
+
+#instructores .titulo{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+#instructores .margenes1 ul li{
+    list-style: none;
+    float: left;
+    width:23%;
+    height:auto;
+    margin-right:20px;
+    margin-bottom:3%;
+    margin-top: 5%;
+    color:#000;
+}
+
+#instructores .margenes1 ul li img{
+    width: 100%;
+    height: 250px; 
+    margin-bottom:5%;
+    
+}
+
+#instructores .nombres{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#instructores .descripcion{
+    font-size: 17px;
 }
 
 .frase{
@@ -84,4 +103,8 @@
     text-align: center;
     font-size: 3em;
     height: auto;
+}
+
+.frase .margenes{
+    margin: 100px;
 }
