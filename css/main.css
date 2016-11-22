@@ -13,7 +13,7 @@
 
 .banner .margen-banner{
     margin-top: 14%;
-    margin-bottom: 20%;
+    margin-bottom: 21%;
     
     
 }
@@ -30,11 +30,11 @@
 
 .banner button{
     background: #0e111f;
-    margin-top: 30px;
+    margin-top: 15px;
     padding: 10px 34px;
     border: none;
     font-size: 1.1em;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .resena{
@@ -70,7 +70,7 @@
 
     background: url(../img/instructor_4.jpg)  no-repeat , 
                 url(../img/profesor_9.jpg)  no-repeat;
-    background-position: top left, top right ;
+    background-position: top left, top right;
     
     background-size: 51%, 50%;
     text-align: center;
@@ -87,6 +87,16 @@
     
 }
 
+.dobleimagen button a{
+    text-decoration: none;
+    
+}
+
+.dobleimagen button a:hover{
+    color: #fff;
+    
+}
+
 .frase{
     background: url(../img/textura_2.jpg);
     text-align: center;
@@ -100,7 +110,7 @@
 }
 
 .contenido_mapa .texto{
-    
+    margin-left: 7%;
 }
 .margen-contenido-mapa{
     margin-top: 6%;

@@ -2,11 +2,11 @@
 
 header nav{
     text-align: center;
-    padding:3px 0 28px 0;
     
 }
 header nav ul{
     list-style-type: none;
+    
 }
 
 header nav ul li{
@@ -31,9 +31,14 @@ header nav a:hover{
     background-position:95%;
 }
 
-#contactanos .margen{
-    margin: 50px 125px;
+#contactanos .texto-contacto{
+    margin-left: 23%;
     
+}
+
+#contactanos .margen-formulario{
+    margin-top: 2%;
+    margin-left: 23%;
 }
 *:focus{
     outline: none;
@@ -55,13 +60,16 @@ header nav a:hover{
     color:#ccc;
 }
 
-.contact_form h1{
-    margin: 0;
+.contact_form h2{
     display: inline;
+     
 }
 
 
 
+
+
+/*
 .contact_form ul{
     width: 55%;
     list-style-type: none;
@@ -76,6 +84,7 @@ header nav a:hover{
     position: relative;
 }
 
+*/
 .contact_form input{
     
     width: 92%;
@@ -91,7 +100,8 @@ header nav a:hover{
 
 .contact_form input, .contact_form textarea{
     border: 1px solid #aaa;
-    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset; 
+    border-left: none;
+    
     border-radius: 2px;
     -moz-transition: padding .25s;
     -webkit-transition: padding .25s;
@@ -130,6 +140,7 @@ button.submit{
     border-radius: 5px;
     padding: 3%;
     width: 92%;
+    margin-bottom: 10%;
 }
 
 
