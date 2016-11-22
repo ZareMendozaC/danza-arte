@@ -5,9 +5,9 @@
 }
 
 .banner{
-    background: url(../img/dance_7.jpg) left  no-repeat;
+    background: url(../img/dance_7.jpg) no-repeat left fixed ;
     height: auto;
-    background-size: 138%;
+    background-size:138%;
     
 }
 
