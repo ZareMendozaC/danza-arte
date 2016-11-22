@@ -60,20 +60,23 @@ footer .margen-pie{
    
     margin-top: 20px;
 }
-.dadmyform
+
+#contacto
 {
     background: url(../img/shoes_1.jpg) right no-repeat;
-    background-size: 52%;
+    background-size: 60%;
     background-position:95%;
+
 }
 .dadmyform{
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 .boton{
     background-color: #192951;
     border: 1px solid #192951;
     color:white;
-    height: 50px
+    height: 50px;
 }
 .title-myform{
    color:#210B61;

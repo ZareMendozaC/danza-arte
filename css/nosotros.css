@@ -5,9 +5,9 @@
 }
 
 .banner{
-    background: url(../img/dance_7.jpg) left  no-repeat;
+    background: url(../img/dance_7.jpg) no-repeat left;
     height: auto;
-    background-size: 138%;
+    background-size:138%;
     
 }
 
@@ -56,9 +56,6 @@
     font-weight: bold;
 }
 
-
-
-
 #instructores .margenes1 {
     
     margin-right:20px;
@@ -71,30 +68,33 @@
     font-size: 25px;
 }
 
-
-#instructores .margenes1 ul li{
-    list-style: none;
-    float: left;
-   
-    width:23%;
-    height:50%;
+#instructores .margenes1{
     margin-right:20px;
-    margin-bottom:3%;
+    margin-bottom:5%;
     margin-top: 5%;
     color:#000;
 
 }
 
-#instructores .margenes1 ul li img{
-    width: 100%;
+
+#instructores .margen-caja{
+   
+    margin-bottom:3%;
+    margin-top: 5%;
+}
+
+#instructores img{
+    
     height: 270px; 
-    margin-bottom:5%;
+    width: 80%;
+    
     
 }
 
 #instructores .contenedorimagen{
     height: 190px;
     overflow: hidden;
+    margin-bottom:5%;
 }
 
 #instructores .nombres{

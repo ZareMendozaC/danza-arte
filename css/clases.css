@@ -54,7 +54,17 @@
     color: rgba(225,225,225,0.7);
     
 }
-h5,p {
+.fondo h5{
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.fondo p {
     background-color: rgba(0,0,0,0.5);
     margin-bottom: 0;
     margin-left: 15px;
