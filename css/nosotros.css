@@ -20,6 +20,7 @@
     margin-top: 9%;
     margin-bottom: 9%;
     margin-left: 25%;
+    height: auto;
 }
 
 .banner .sobre-nosotros{
@@ -74,19 +75,26 @@
 #instructores .margenes1 ul li{
     list-style: none;
     float: left;
+   
     width:23%;
     height:50%;
     margin-right:20px;
     margin-bottom:3%;
     margin-top: 5%;
     color:#000;
+
 }
 
 #instructores .margenes1 ul li img{
     width: 100%;
-    height: 250px; 
+    height: 270px; 
     margin-bottom:5%;
     
+}
+
+#instructores .contenedorimagen{
+    height: 190px;
+    overflow: hidden;
 }
 
 #instructores .nombres{
@@ -108,3 +116,4 @@
 .frase .margenes{
     margin: 100px;
 }
+
