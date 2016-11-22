@@ -2934,6 +2934,7 @@ select[multiple].input-lg {
   .form-inline .input-group .input-group-btn,
   .form-inline .input-group .form-control {
     width: auto;
+    
   }
   .form-inline .input-group > .form-control {
     width: 100%;
@@ -3883,6 +3884,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn,
 .input-group .form-control {
   display: table-cell;
+  
 }
 .input-group-addon:not(:first-child):not(:last-child),
 .input-group-btn:not(:first-child):not(:last-child),
@@ -3919,6 +3921,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-addon input[type="radio"],
 .input-group-addon input[type="checkbox"] {
   margin-top: 0;
+   
 }
 .input-group .form-control:first-child,
 .input-group-addon:first-child,
@@ -3945,6 +3948,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .input-group-addon:last-child {
   border-left: 0;
+   
 }
 .input-group-btn {
   position: relative;
