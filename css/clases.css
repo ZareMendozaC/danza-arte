@@ -1,13 +1,10 @@
-*{outline: 1px solid #ea3232}
 /* Cabecera */
 .titulo-clases{
     text-align: center;
     color: darkblue;
    
 }
-.navbar-hearder{
-    background-color: #FFF;
-}
+
 
 /* seccion cursos */
 
@@ -70,3 +67,4 @@ h5,p {
     padding-bottom: 20px;
     
 }
+
