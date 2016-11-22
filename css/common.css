@@ -1,5 +1,7 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
-
+*{
+    
+}
 header nav{
     text-align: center;
     
@@ -176,14 +178,49 @@ button.submit{
 }
 
 
-
-
-
-
 footer{
     background: #192951;
 }
 
 footer .margen-pie{
     margin: 30px 0 15px 20px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.myform{
+   
+    width: 500px;
+    margin-top: 40px;
+}
+.myform .input-group{
+   
+    margin-top: 20px;
+}
+.dadmyform
+{
+    background: url(../img/shoes_1.jpg) right no-repeat;
+    background-size: 52%;
+    background-position:95%;
+}
+.dadmyform{
+    margin-top: 70px;
+}
+.boton{
+    background-color: #210B61;
+    border: 1px solid #210B61;
+    color:white;
+    height: 60px
+}
+.title-myform{
+   color:#210B61;
+   font-weight: bold;
+}
+span .input-group-addon{
+    border: none;
 }
