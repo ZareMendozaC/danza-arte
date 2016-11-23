@@ -70,7 +70,7 @@
 
     background: url(../img/instructor_4.jpg)  no-repeat , 
                 url(../img/profesor_9.jpg)  no-repeat;
-    background-position: top left, top right ;
+    background-position: top left, top right;
     
     background-size: 51%, 50%;
     text-align: center;
@@ -87,6 +87,16 @@
     
 }
 
+.dobleimagen button a{
+    text-decoration: none;
+    
+}
+
+.dobleimagen button a:hover{
+    color: #fff;
+    
+}
+
 .frase{
     background: url(../img/textura_2.jpg);
     text-align: center;
@@ -100,14 +110,32 @@
 }
 
 .contenido_mapa .texto{
-    
+    margin-left: 7%;
 }
 .margen-contenido-mapa{
     margin-top: 6%;
     
 }
-
 .contenido_mapa .map{
     text-align: center;
     margin-bottom: 8%;
+}
+.imagen img{
+    background-size: contain;
+    height: 250px;
+    background-color: #A4A4A4;
+}
+.fila-blog{
+     background-color:#D8D8D8;
+    margin-top: 35px;
+}
+.btn-ver{
+    width: 140px;
+}
+.contenido{
+    background-color: #E6E6E6;
+   
+}
+.col-texto{
+    margin-top: 50px;
 }

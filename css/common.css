@@ -1,5 +1,7 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
-
+*{
+    
+}
 header nav{
     text-align: center;
     
@@ -27,14 +29,48 @@ header nav a:hover{
 
 #contactanos{
     background: url(../img/shoes_1.jpg) right  no-repeat;
-    background-size: 52%;
+    background-size: 55%;
     background-position:95%;
+   
 }
 
-#contactanos .margen{
-    margin: 40px 125px;
-    
+
+
+footer{
+    background: #192951;
 }
+
+footer .margen-pie{
+    margin: 30px 0 15px 20px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.myform{
+   
+    width: 500px;
+    margin-top: 40px;
+}
+.myform .input-group{
+   
+    margin-top: 20px;
+}
+
+#contacto
+{
+    background: url(../img/shoes_1.jpg) right no-repeat;
+    background-size: 52%;
+    background-position:95%;
+
+}
+
+
+/*Aplicando estilos al form*/
 *:focus{
     outline: none;
 }
@@ -46,52 +82,10 @@ header nav a:hover{
 .form_hint{
     font-size: 11px;
 }
-
-:-moz-placeholder{
-    color: #ccc;
-}
-
-::-webkit-input-placeholder{
-    color:#ccc;
-}
-
-.contact_form h1{
-    margin: 0;
-    display: inline;
-}
-
-
-
-.contact_form ul{
-    width: 55%;
-    list-style-type: none;
-    list-style-position: outside;
-    margin: 0px;
-    padding: 0px;
-}
-
-.contact_form li{
-    padding: 12px;
-    
-    position: relative;
-}
-
-.contact_form input{
-    
-    width: 92%;
-    padding: 5px 8px;
-}
-
-.contact_form textarea{
-    padding: 8px;
-    width: 92%;
-}
-
-
-
 .contact_form input, .contact_form textarea{
     border: 1px solid #aaa;
-    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset; 
+    border-left: none;
+    
     border-radius: 2px;
     -moz-transition: padding .25s;
     -webkit-transition: padding .25s;
@@ -102,37 +96,26 @@ header nav a:hover{
 }
 /*invalido*/
 .contact_form input:focus:invalid, .contact_form textarea:focus:invalid{
-    background: #fff url(asterisco.png) no-repeat 98% center;
+    background: transparent url(../img/invalido.png) no-repeat 98% center;
     box-shadow: 0 0 5px #d45252;
     border-color: #b03535;
 }
 /*valido*/
 .contact_form input:required:valid, .contact_form textarea:required:valid{
-    background: #fff url(asterisco.png) no-repeat 98% center;
+    background: transparent url(../img/valido.png) no-repeat 98% center;
     box-shadow: 0 0 5px #5cd053;
     border-color: #28921f;
 }
 .contact_form input:focus, .contact_form textarea:focus{
-    background: #fff;
+    background: transparent;
     border: 1px solid #555;
     box-shadow: 0 0 3px #aaa;
     padding-right: 70px;
 }
-
 input:required, textarea:required{
-    background: url(asterisco.png) no-repeat 98% center;
+    background: url(../img/asteriscorojo.png) no-repeat 98% center;
+    background-size: 1.3%;
 }
-
-/* Button Style*/
-button.submit{
-    background-color: #192951;
-    border: none;
-    border-radius: 5px;
-    padding: 3%;
-    width: 92%;
-}
-
-
 .form_hint{
     background: #d45252;
     border-radius: 3px 3px 3px 3px;
@@ -163,16 +146,24 @@ button.submit{
 .contact_form input:required:valid + .form_hint::before{
     color: #28921f;
 }
+/*finalizado estilos al form*/
 
 
 
-
-
-
-footer{
-    background: #192951;
+.dadmyform{
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
-
-footer .margen-pie{
-    margin: 30px 0 15px 20px;
+.boton{
+    background-color: #192951;
+    border: 1px solid #192951;
+    color:white;
+    height: 50px;
+}
+.title-myform{
+   color:#210B61;
+   font-weight: bold;
+}
+span .input-group-addon{
+    border: none;
 }

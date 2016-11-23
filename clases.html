@@ -1,15 +1,173 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Escuela de Danza</title>
-	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
-	<link rel="stylesheet" type="text/css" href="css/utilities.css">
-	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/clases.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta charset="UTF-8">
+  <title>Escuela de Danza</title>
+  <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+  
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+  <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    
+  <link rel="stylesheet" type="text/css" href="css/utilities.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/clases.css">
 </head>
 <body>
+ <!---------------------- HEADER ---------------------------->
+    <header>
+        <div class="container">
+           
+            <h1 class="text-blue text-center"><strong>ESCUELA DE DANZA</strong></h1>
+            <nav class="navbar" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Desplegar navegación</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+    
+              </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html" class="text-gray">Inicio</a></li>
+                    <li><a href="nosotros.html" class="text-gray">Nosotros</a></li>
+                    <li><a href="clases.html" class="text-gray">Clases</a></li>
+                    <li><a href="blog.html" class="text-gray">Blog</a></li>
+                    <li><a href="#contacto" class="text-gray">Contáctanos</a></li>
+                </ul>
+       </div>
+
+            </nav>
+   
+         </div>   
+    </header>
 	<!-- Inserta tu código aqui -->
-</body>
+
+	
+        
+        <section class="fondo">
+        <div class="container">
+        <h4 class="titulo-clases" ><b>OFERTA DE CLASES </b></h4>
+         <div class="cursos">
+               <div class="row">
+                 <div class="col-md-4" >
+                    <div class="imagen-curso imgfondo1">
+                    <div class="texto-columna-curso" >
+                     <h5>BALLET</h5>
+                     <p>El Ballete es la base de casi todos los estilos de baile</p>
+                    </div>
+                    
+             
+                 </div>
+                </div>
+                
+                  <div class="col-md-4" >
+                    <div class="imagen-curso imgfondo2">
+                    <div class="texto-columna-curso" >
+                     <h5>DANCE MODERN</h5>
+                     <p>El Ballete es la base de casi todos los estilos de baile</p>
+                    </div>
+                  </div>
+                </div>
+                
+               <div class="col-md-4" >
+                    <div class="imagen-curso imgfondo3">
+                    <div class="texto-columna-curso" >
+                     <h5><b>JAZZ LIRIC</b></h5>
+                     <p>El Ballete es la base de casi todos los estilos de baile</p>
+                    </div>
+                 </div>
+                </div>
+            </div> 
+            
+            <div class="row">
+                 <div class="col-md-4" >
+                    <div class="imagen-curso imgfondo4">
+                    <div class="texto-columna-curso" >
+                     <h5><b>ARABICDANCET</b></h5>
+                     <p>El Ballete es la base de casi todos los estilos de baile</p>
+                    </div>
+                    
+             
+                </div>
+                </div>
+                
+                  <div class="col-md-4" >
+                    <div class="imagen-curso imgfondo5">
+                    <div class="texto-columna-curso" >
+                     <h5><b>KIDS LESSONS</b></h5>
+                     <p>El Ballete es la base de casi todos los estilos de baile</p>
+                    </div>
+                  </div>
+                </div>
+                
+               <div class="col-md-4" >
+                    <div class="imagen-curso imgfondo6">
+                    <div class="texto-columna-curso" >
+                     <h5><b>YOGA DANCE</b></h5>
+                     <p>El Ballete es la base de casi todos los estilos de baile</p>
+                    </div>
+                 </div>
+                </div>
+            </div>     
+              
+         </div>
+        </div>
+        </section >
+        
+
+    <section id="contacto"> 
+           <div class="container">
+              <div class="dadmyform">
+                 <h2 class="title-myform">Contáctanos</h2>
+              
+                 <form class="contact_form" action="" method="post" name="contact_form">
+              
+                      <div class="form-group myform"> 
+                        <div class="row">
+                          <div class="col-md-12 col-xs-6">
+
+                              <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                  <input  name="name" placeholder="Nombre" class="form-control"  type="text" required>    
+                              </div>
+
+                              <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                  <input  type="email" name="email" placeholder="Email" class="form-control"   required>
+                                  <span class="form_hint">Formato apropiado "name@something.com"</span>
+                              </div>
+
+                              <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                  <textarea class="form-control mensaje" rows="5" name="message" placeholder="Mensaje" required></textarea>
+                              </div>
+                              <div>
+                                  <button class="input-group boton col-md-12 col-xs-12">ENVIAR</button>
+                              </div>
+                          </div>
+                        </div>
+                     </div>
+                 </form>
+              </div>
+
+           
+           </div>
+        </section>
+    
+       <footer>
+       <div class="container-fluid">
+           <div class="margen-pie">
+              <p class="text-gris"> &copy; Escuela de danza. Todos los derechos reservados</p>
+           </div>
+       </div>        
+    </footer>
+
+    </body>
 </html>
